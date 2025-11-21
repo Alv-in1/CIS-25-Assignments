@@ -18,7 +18,7 @@ public:
 };
 
 int main() {
-    Product p(101, "Notebook", 4.99);
+    Product p(203, "Energy drink", 3.05);
     p.printDetails();
     return 0;
 }
