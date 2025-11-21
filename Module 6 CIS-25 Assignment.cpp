@@ -15,7 +15,7 @@ class Item{
         if (out.is_open()) {
             out<<name <<","<< quantity<<endl;
             out.close();
-            cout <<"Item save to file."<<endl;
+            cout <<"Item saved to file."<<endl;
             
         }else{
             cout<<"Unable to open file for writing."<<endl;
@@ -39,8 +39,8 @@ class Item{
 
 int main() {
     Item tool;
-    tool.name = "Screwdriver";
-    tool.quantity = 10;
+    tool.name = "Strawberry";
+    tool.quantity = 100;
     
     tool.saveToFile();
     tool.loadFromFile();
