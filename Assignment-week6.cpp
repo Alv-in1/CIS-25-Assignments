@@ -10,13 +10,13 @@ struct Item {
 };
 
 // Binary search
-int binarySearch(Item* arr, int size, int targetID) {
+int binarySearch(Item* arr, int size, int ItemID) {
     int left = 0, right = size - 1;
     while (left <= right) {
         int mid = (left + right) / 2;
-        if (arr[mid].id == targetID)
+        if (arr[mid].id == ItemID)
             return mid;
-        else if (arr[mid].id < targetID)
+        else if (arr[mid].id < ItemID)
             left = mid + 1;
         else
             right = mid - 1;
