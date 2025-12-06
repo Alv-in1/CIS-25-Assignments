@@ -28,7 +28,7 @@ Using separate if statements caused more than one block to run.
 
 The logic was inconsistent and confusing.
 
-  My new if statement looks like this:
+My new if statement looks like this:
 
         if( n1 == n2 && n2 == n3){
             cout << "All three numbers are identical: "<< n1 <<" = "<< n2 <<" = "<< n3 <<"."<<endl;
@@ -43,10 +43,10 @@ The logic was inconsistent and confusing.
               cout << "Largest number: " << n3;
              
               }
-        I made sure that I use a single if statement instead of couple like the original code. I also added another line to make sure that the code is logical. It is this line:
+I made sure that I use a single if statement instead of couple like the original code. I also added another line to make sure that the code is logical. It is this line:
         
-if( n1 == n2 && n2 == n3){
-      cout << "All three numbers are identical: "<< n1 <<" = "<< n2 <<" = "<< n3 <<"."<<endl;
+        if( n1 == n2 && n2 == n3){
+              cout << "All three numbers are identical: "<< n1 <<" = "<< n2 <<" = "<< n3 <<"."<<endl;
 
       it informs the user that they entered three identical numbers.
 
