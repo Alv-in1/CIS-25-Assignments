@@ -48,8 +48,8 @@ I made sure that I use a single if statement instead of couple like the original
         if( n1 == n2 && n2 == n3){
               cout << "All three numbers are identical: "<< n1 <<" = "<< n2 <<" = "<< n3 <<"."<<endl;
 
-      it informs the user that they entered three identical numbers.
+it informs the user that they entered three identical numbers.
 
-      I also changed the condition of each other if statement so that it executes our goal and print what we wanted. 
+I also changed the condition of each other if statement so that it executes our goal and print what we wanted. 
 
-      It looks cleaner and works properly.
+It looks cleaner and works properly.
