@@ -13,7 +13,7 @@ class BankAccount {
         }
         void deposit(double amount) {
             balance += amount;
-            cout<<"Your current balcance is: "<< balance <<"\n";
+            cout<<"Your current balance is: "<< balance <<"\n";
         }
         void Purchase(string item, double price){
             if (price > balance){
